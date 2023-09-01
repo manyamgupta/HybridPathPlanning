@@ -4,7 +4,7 @@ using PyPlot
 using FileIO
 
 pygui(true)
-xdoc = parse_file("../BenchmarkMaps/newyork0.osm")
+xdoc = parse_file("newyork0.osm") #or  boston2.osm
 
 xroot = root(xdoc)
 
